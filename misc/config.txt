@@ -1,6 +1,6 @@
 {
-    "path_loras": "/content/drive/MyDrive/fooocus/models/loras",
-    "path_embeddings": "/content/drive/MyDrive/fooocus/models/embeddings",
-    "path_upscale_models": "/content/drive/MyDrive/fooocus/models/upscale_models",
+    "path_loras": "/content/drive/MyDrive/fooocus/loras",
+    "path_embeddings": "/content/drive/MyDrive/fooocus/embeddings",
+    "path_upscale_models": "/content/drive/MyDrive/fooocus/upscale_models",
     "path_outputs": "/content/drive/MyDrive/fooocus/outputs"
 }
