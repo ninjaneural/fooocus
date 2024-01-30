@@ -1,12 +1,13 @@
 {
-    "path_checkpoints": "/Fooocus_win64_2-1-831/Fooocus/models/checkpoints",
-    "path_loras": "/Fooocus_win64_2-1-831/Fooocus/models/loras",
-    "path_embeddings": "/Fooocus_win64_2-1-831/Fooocus/models/embeddings",
-    "path_vae_approx": "/Fooocus_win64_2-1-831/Fooocus/models/vae_approx",
-    "path_upscale_models": "/Fooocus_win64_2-1-831/Fooocus/models/upscale_models",
-    "path_inpaint": "/Fooocus_win64_2-1-831/Fooocus/models/inpaint",
-    "path_controlnet": "/Fooocus_win64_2-1-831/Fooocus/models/controlnet",
-    "path_clip_vision": "/Fooocus_win64_2-1-831/Fooocus/models/clip_vision",
-    "path_fooocus_expansion": "/Fooocus_win64_2-1-831/Fooocus/models/prompt_expansion/fooocus_expansion",
-    "path_outputs": "/Fooocus_win64_2-1-831/Fooocus/outputs"
+    "path_checkpoints": "../models/checkpoints",
+    "path_loras": "../models/loras",
+    "path_embeddings": "../models/embeddings",
+    "path_vae_approx": "../models/vae_approx",
+    "path_upscale_models": "../models/upscale_models",
+    "path_inpaint": "../models/inpaint",
+    "path_controlnet": "../models/controlnet",
+    "path_clip_vision": "../models/clip_vision",
+    "path_fooocus_expansion": "../models/prompt_expansion/fooocus_expansion",
+    "path_outputs": "../outputs",
+    "default_image_number": 1
 }
