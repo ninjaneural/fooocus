@@ -6,7 +6,7 @@
 
 # Fooocus 오피셜 Colab
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ninjaneural/fooocus/blob/master/${TARGET_DIR}/${item.ipynb}.ipynb) 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb) 
 
 # Fooocus Colab 목록
 
