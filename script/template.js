@@ -266,6 +266,7 @@ async function copy_files() {
         let code = templateCode;
         code = code.replaceAll('#template_checkpoint_default#', item.checkpoint);
         code = code.replaceAll('#template_checkpoint_default_name#', item.checkpoint_file);
+        code = code.replaceAll('#template_default#', '');
         code = code.replaceAll('#template_preset#', item.preset);
         fs.writeFileSync(`../${TARGET_DIR}/${item.ipynb}.ipynb`, code);
 
@@ -281,6 +282,7 @@ async function copy_files() {
         code = code.replaceAll('#template_checkpoint_default#', item.checkpoint);
         code = code.replaceAll('#template_checkpoint_default_name#', item.checkpoint_file);        
         code = code.replaceAll('#template_default#', templateDefault);
+        code = code.replaceAll('#template_preset#', '');
         fs.writeFileSync(`../${TARGET_DIR}/${item.ipynb}.ipynb`, code);
 
         readme.push(`| [![Open In Colab](https://raw.githubusercontent.com/neuralninja22/colab/master/icons/colab-badge-nightly.svg)](https://colab.research.google.com/github/ninjaneural/fooocus/blob/master/${TARGET_DIR}/${item.ipynb}.ipynb) | [${item.name}](${item.model})                    | ${item.bakedVAE ? '' : '선택'} | ${item.type}                      |`)
