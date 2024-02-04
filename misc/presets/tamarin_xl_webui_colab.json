@@ -1,5 +1,5 @@
 {
-    "default_model": "zavychroma_xl_v40.safetensors",
+    "default_model": "tamarin_xl_v10.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -38,7 +38,7 @@
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "zavychroma_xl_v40.safetensors": "https://civitai.com/api/download/models/320428"
+        "tamarin_xl_v10.safetensors": "https://civitai.com/api/download/models/265836"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
