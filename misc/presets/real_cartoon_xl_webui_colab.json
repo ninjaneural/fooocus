@@ -38,7 +38,7 @@
     ],
     "default_aspect_ratio": "1152*896",
     "checkpoint_downloads": {
-        "realcartoon_xl_v6.safetensors": "https://civitai.com/api/download/models/254091"
+        "realcartoon_xl_v6.safetensors": "https://huggingface.co/7Whitefire7/RealCartoonXL/resolve/main/realcartoonXL_v6.safetensors?download=true"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
