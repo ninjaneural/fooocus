@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const TARGET_DIR = process.argv[2] ?? 'sdxl';
+const TARGET_DIR = 'stable';
 const BASE_SRC = `../${TARGET_DIR}/template.ipynb`;
 
 const default_checkpoints = [
@@ -322,6 +322,7 @@ async function copy_files() {
         code = code.replaceAll('#template_checkpoint_default_name#', item.checkpoint_file);
         code = code.replaceAll('#template_preset#', item.preset);
         code = code.replaceAll('#ipynb_name#', item.ipynb);
+        code = code.replaceAll('#preset_memo#', "#@markdown **<font color=blue>체크포인트 URL을 입력하면 입력한 체크포인트로 자동 변경해서 다운받아요</font>**");            
         fs.writeFileSync(`../${TARGET_DIR}/${item.ipynb}.ipynb`, code);
 
         readme.push(`| [![Open In Colab](https://raw.githubusercontent.com/neuralninja22/colab/master/icons/colab-badge.svg)](https://colab.research.google.com/github/ninjaneural/fooocus/blob/master/${TARGET_DIR}/${item.ipynb}.ipynb) | [${item.name}](${item.model})                    | ${item.bakedVAE ? '' : '선택'} |                       |`)
@@ -337,6 +338,7 @@ async function copy_files() {
         code = code.replaceAll('#template_checkpoint_default_name#', item.checkpoint_file);        
         code = code.replaceAll('#template_preset#', item.preset??'');
         code = code.replaceAll('#ipynb_name#', item.ipynb);
+        code = code.replaceAll('#preset_memo#', "");            
         fs.writeFileSync(`../${TARGET_DIR}/${item.ipynb}.ipynb`, code);
 
         let defaultCode = fs.readFileSync('../misc/'+templateDefault+'.json', { encoding: 'utf8' });
