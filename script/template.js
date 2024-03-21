@@ -114,7 +114,6 @@ async function copy_files() {
     try {
         const model = await fetchModel();
         checkpoints = JSON.parse(model);
-        console.log(checkpoints);
         copy_files();
     } catch (e) {
         console.error(e);

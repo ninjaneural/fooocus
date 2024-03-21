@@ -1,8 +1,9 @@
 @유튜브채널 https://www.youtube.com/@neuralninja-ai  
 
 > SD-WebUI(A1111)실행사이트 https://github.com/ninjaneural/webui  
+> ComfyUI실행사이트 https://github.com/ninjaneural/comfyui  
 > Kaggle실행사이트 https://github.com/ninjaneural/kaggle  
-> SageMaker실행사이트 https://github.com/ninjaneural/sagemaker
+> SageMaker실행사이트 https://github.com/ninjaneural/sagemaker  
 
 # Fooocus 오피셜 Colab
 
