@@ -1,5 +1,5 @@
 {
-    "default_model": "pony_diffusion_v6_xl.safetensors",
+    "default_model": "#Checkpoint_Filename#",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -37,7 +37,7 @@
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "pony_diffusion_v6_xl.safetensors": "https://civitai.com/api/download/models/290640?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+        "#Checkpoint_Filename#": "#Checkpoint_Url#"
     },
     "embeddings_downloads": {},
     "lora_downloads":             {

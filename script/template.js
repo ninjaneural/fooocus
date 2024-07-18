@@ -88,6 +88,9 @@ async function copy_files() {
         if (item.type=='2D'||item.type=='2.5D'||item.type=='3D') {
             templateDefault = 'anime';
         }
+        if (item.sdmodel=='pony') {
+            templateDefault = 'pony';
+        }
         code = code.replaceAll('#template_checkpoint_default#', item.checkpoint);
         code = code.replaceAll('#template_checkpoint_default_name#', item.checkpoint_file);        
         code = code.replaceAll('#template_preset#', item.preset??'');
