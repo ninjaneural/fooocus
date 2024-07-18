@@ -5,6 +5,10 @@
 > Kaggle실행사이트 https://github.com/ninjaneural/kaggle  
 > SageMaker실행사이트 https://github.com/ninjaneural/sagemaker  
 
+# Fooocus 로컬 PC설치
+
+https://github.com/lllyasviel/Fooocus?tab=readme-ov-file#download
+
 # Fooocus 오피셜 Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb) 
