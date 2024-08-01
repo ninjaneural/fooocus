@@ -3,5 +3,5 @@
     "path_embeddings": "/content/drive/MyDrive/fooocus/embeddings",
     "path_upscale_models": "/content/drive/MyDrive/fooocus/upscale_models",
     "path_outputs": "/content/drive/MyDrive/fooocus/outputs",
-    "default_max_image_number": 1
+    "default_image_number": 1
 }
