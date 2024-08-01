@@ -32,7 +32,6 @@
     "default_prompt": "1girl, ",
     "default_prompt_negative": "pony",
     "default_styles": [
-        "Fooocus V2",
         "Fooocus Pony"
     ],
     "default_aspect_ratio": "896*1152",
